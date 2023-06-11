@@ -180,10 +180,6 @@ nav a {
     height: 40px; 
     margin-top: 20px;
   }
-  
-  .form-control {
-    height: 25px;
-  }
 
   #categoria{
     width: 328px; 
@@ -286,7 +282,64 @@ footer {
     font-size: 12px;
 }
 
+@media screen and (min-width: 1441px){
+    .nombree{
+        width: 325px;
+        height: 40px;
+    }
 
+    .apellidoo{
+        width: 325px;
+        height: 40px;
+    }
+
+    .emaill{
+        width: 660px;
+        height: 40px;
+    }
+
+    #cantidad{
+        width: 325px;
+        height: 40px;
+    }
+
+    #categoria{
+        width: 325px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 10;
+        font-size: 12px;
+    }
+
+    .nombree{
+        width: 325px;
+        height: 40px;
+    }
+
+    .apellidoo{
+        width: 325px;
+        height: 40px;
+    }
+
+    .emaill{
+        width: 660px;
+        height: 40px;
+    }
+
+    #cantidad{
+        width: 325px;
+        height: 40px;
+    }
+
+    #categoria{
+        width: 325px;
+        height: 40px;
+    }
+}
 
 @media (max-width: 425px){
 
