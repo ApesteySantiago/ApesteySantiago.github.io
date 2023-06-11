@@ -37,5 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
   totalMsg.textContent = `Total a pagar: $${total}`;
   });
 
-
 });
