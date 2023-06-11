@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   const total = 200 * cantidad * (1 - descuento).toFixed(2);
-  totalMsg.textContent = `Total a pagar: $${total}`;
+  totalMsg.textContent = `Total a Pagar: $${total}`;
   });
 
 });
