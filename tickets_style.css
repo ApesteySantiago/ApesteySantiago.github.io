@@ -162,10 +162,40 @@ nav a {
     margin: 0;
     text-align: left;
   }
+
+  .nombree{
+    width: 328px; 
+    height: 40px;
+
+  }
+
+  .apellidoo{
+    width: 328px; 
+    height: 40px; 
+    margin-left: 5px;
+  }
+
+  .emaill{
+    width: 665px; 
+    height: 40px; 
+    margin-top: 20px;
+  }
   
   .form-control {
     height: 25px;
   }
+
+  #categoria{
+    width: 328px; 
+    height: 40px;
+  }
+
+  #cantidad{
+    width: 328px; 
+    height: 40px; 
+    margin-right: 5px;
+  }
+
 
   .total-message {
     margin-top: 10px;
@@ -175,6 +205,20 @@ nav a {
   .btn {
     background-color: green;
     color: white;
+  }
+
+  #borrar-btn{
+    width: 328px; 
+    height: 40px; 
+    margin-right: 5px ; 
+    background-color: #97c93e;
+  }
+
+  #resumen-btn{
+    width: 328px; 
+    height: 40px; 
+    margin-left: 5px; 
+    background-color: #97c93e;
   }
 
 /* ---------------------------- */
@@ -242,3 +286,338 @@ footer {
     font-size: 12px;
 }
 
+
+
+@media (max-width: 425px){
+
+    header{
+        padding: 0;
+        margin: 0;
+        width: 425px;
+    }
+    .label-menu{
+        white-space: nowrap;
+        margin-left: 10px;
+        width: 50px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-chico{
+        display: block;
+
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu.chi {
+        font-size: 50px;
+    }
+
+    .descuento{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aux1{
+        display: flex;
+        flex-direction: row ;
+    }
+
+    .nombree{
+        width: 180px;
+        height: 40px;
+    }
+
+    .apellidoo{
+        margin-right: 10px;
+        width: 180px;
+        height: 40px;
+    }
+
+    .emaill{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 370px;
+        height: 40px;
+    }
+
+    #cantidad{
+        width: 180px;
+        height: 40px;
+        margin-left: -5px;
+        translate: 5px;
+    }
+
+    #categoria{
+        width: 180px;
+        height: 40px;
+        margin-left: 5px;
+        
+    }
+ 
+    #total-msg{
+        width: 370px;
+        margin-left: 0px;
+    }
+
+    .aux{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #borrar-btn {
+        width: 180px;
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    #resumen-btn{
+        width: 180px;
+        height: 40px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    footer{
+        padding: 0;
+        margin: 0;
+    }
+
+    .pie{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 375px){
+
+    header{
+        padding: 0;
+        margin: 0;
+        width: 375px;
+    }
+    .label-menu{
+        white-space: nowrap;
+        margin-left: 10px;
+        width: 50px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-chico{
+        display: block;
+
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu.chi {
+        font-size: 50px;
+    }
+
+    .descuento{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombree{
+        width: 330px;
+        height: 40px;
+    }
+
+    .apellidoo{
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 330px;
+        height: 40px;
+    }
+
+    .emaill{
+        margin-top: 0px;
+        margin-left: 10px;
+        width: 330px;
+        height: 40px;
+    }
+
+    #cantidad{
+        width: 330px;
+        height: 40px;
+        margin-left: -5px;
+        translate: 5px;
+    }
+
+    #categoria{
+        width: 330px;
+        height: 40px;
+        margin-left: -5px;
+        
+    }
+ 
+    #total-msg{
+        width: 330px;
+        margin-left: 10px;
+    }
+
+    .aux{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #borrar-btn {
+        width: 160px;
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #resumen-btn{
+        width: 160px;
+        height: 40px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+
+    footer{
+        padding: 0;
+        margin: 0;
+    }
+
+    .pie{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 320px){
+
+    header{
+        padding: 0;
+        margin: 0;
+        width: 320px;
+    }
+    .label-menu{
+        white-space: nowrap;
+        margin-left: 10px;
+        width: 50px;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-chico{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .menu.chi {
+        font-size: 50px;
+    }
+
+    .descuento{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombree{
+        width: 300px;
+        height: 40px;
+    }
+
+    .apellidoo{
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+    }
+
+    .emaill{
+        margin-top: 0px;
+        margin-left: 10px;
+        width: 300px;
+        height: 40px;
+    }
+
+    #cantidad{
+        width: 300px;
+        height: 40px;
+        margin-left: -5px;
+        translate: 5px;
+    }
+
+    #categoria{
+        width: 300px;
+        height: 40px;
+        margin-left: -5px;
+        
+    }
+ 
+    #total-msg{
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .aux{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #borrar-btn {
+        width: 145px;
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #resumen-btn{
+        width: 145px;
+        height: 40px;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+
+    footer{
+        padding: 0;
+        margin: 0;
+    }
+
+    .pie{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
